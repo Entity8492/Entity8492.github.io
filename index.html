@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pixel Swarm Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: one readable column, pixel-font headings from the game, plain body text for legal reading */
+:root{
+  --bg:#f4f4fa; --surface:#ffffff; --fg:#1b1c38; --muted:#5a5b78; --accent:#b8432a; --rule:#dcdcea;
+  --display:"Press Start 2P",ui-monospace,monospace;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e0f1f; --surface:#14152a; --fg:#e8e8f0; --muted:#a3a4c0; --accent:#ffcd75; --rule:#2a2b4a; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0f1f; --surface:#14152a; --fg:#e8e8f0; --muted:#a3a4c0; --accent:#ffcd75; --rule:#2a2b4a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 56px}
+main{max-width:40rem;margin:0 auto;display:grid;gap:28px}
+header{display:grid;gap:12px;padding-bottom:24px;border-bottom:2px solid var(--rule)}
+.game{font:12px/1.4 var(--display);color:var(--accent);letter-spacing:.04em;margin:0}
+h1{font:clamp(18px,4.5vw,26px)/1.4 var(--display);margin:0;text-wrap:balance}
+.date{color:var(--muted);font-size:14px;margin:0}
+section{display:grid;gap:8px}
+h2{font:12px/1.5 var(--display);color:var(--accent);margin:0;letter-spacing:.03em;text-wrap:balance}
+p{margin:0}
+.summary{background:var(--surface);border:2px solid var(--rule);padding:16px 18px}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="game">PIXEL SWARM</p>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated 18 November 2026 · applies to the game on Android, PC, Mac, Linux and the web</p>
+  </header>
+
+  <section class="summary">
+    <h2>In short</h2>
+    <p>Pixel Swarm does not collect, store or sell any personal information. There are no accounts, no ads, no analytics and no tracking.</p>
+  </section>
+
+  <section>
+    <h2>Data saved on your device</h2>
+    <p>Your progress, characters, settings and records are saved only on your own device. They are never sent to the developer. Uninstalling the game or clearing its data deletes them.</p>
+  </section>
+
+  <section>
+    <h2>Online multiplayer</h2>
+    <p>Online co-op is optional. When you host or join a room, your device connects directly to the other players' devices. To set up that connection, the game uses the free PeerJS connection service (peerjs.com) and Google's public STUN server, which see your device's IP address while connecting. The other players in your room see your hero's name and appearance and receive game data such as your position, during that session only. Pixel Swarm has no chat, and the developer stores nothing from a session.</p>
+  </section>
+
+  <section>
+    <h2>Permissions</h2>
+    <p>The game uses internet access (for online multiplayer only) and vibration (for touch and controller feedback). It does not access your contacts, location, camera, microphone or files.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>Pixel Swarm does not knowingly collect any information from anyone, including children.</p>
+  </section>
+
+  <section>
+    <h2>Changes and contact</h2>
+    <p>If this policy changes, the new version will be posted on this page. For questions, contact the developer through the Pixel Swarm page: <a href="https://zenerationzero.itch.io/pixel-swarm">zenerationzero.itch.io/pixel-swarm</a>.</p>
+  </section>
+</main>
+</body>
+</html>
